@@ -1,14 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import Header from "./Header";
+import Navbar from "./Navbar";
 import styles from "../styles/Layout.module.css";
 
 export default function Layout({ title, description, children }) {
   const router = useRouter();
   return (
     <div>
-      <div className="backgroundImage">
+      {/* <div className="backgroundImage">
         <Image
           className={styles.backgroundImage}
           src="/background.png"
@@ -16,12 +16,12 @@ export default function Layout({ title, description, children }) {
           objectFit="cover"
           objectPosition="center"
         />
-      </div>
+      </div> */}
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
       </Head>
-      <Header />
+      <Navbar />
     </div>
   );
 }
