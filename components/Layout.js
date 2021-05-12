@@ -8,17 +8,24 @@ export default function Layout({ title, description, children }) {
   const router = useRouter();
   return (
     <div className={styles.container}>
+      <Head>
+        <link
+          rel="preload"
+          href="/fonts/open-sans/OpenSans-Regular.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <title>{title}</title>
+        <meta name="description" content={description} />
+      </Head>
       <Image
         className={styles.backgroundImage}
+        prioirty="true"
         src="/background.png"
         layout="fill"
         objectFit="cover"
         objectPosition="center"
       />
-      <Head>
-        <title>{title}</title>
-        <meta name="description" content={description} />
-      </Head>
       <Navbar />
     </div>
   );
