@@ -2,21 +2,23 @@ import styled from "styled-components";
 import Burger from "./Burger";
 
 const Nav = styled.nav`
-  width: 100%;
+  position: relative;
   height: 55px;
-  border-bottom: 2px solid #f1f1f1;
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  .logo {
-    padding: 15px 0;
+  align-items: center;
+  h1 {
+    color: purple;
+    text-transform: uppercase;
+    font-size: 40px;
   }
 `;
 
 const Navbar = () => {
   return (
     <Nav>
-      <div className="logo">Claudia</div>
+      <h1>Claudia Lee</h1>
       <Burger />
     </Nav>
   );

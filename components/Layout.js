@@ -7,16 +7,14 @@ import styles from "../styles/Layout.module.css";
 export default function Layout({ title, description, children }) {
   const router = useRouter();
   return (
-    <div>
-      {/* <div className="backgroundImage">
-        <Image
-          className={styles.backgroundImage}
-          src="/background.png"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-        />
-      </div> */}
+    <div className={styles.container}>
+      <Image
+        className={styles.backgroundImage}
+        src="/background.png"
+        layout="fill"
+        objectFit="cover"
+        objectPosition="center"
+      />
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
