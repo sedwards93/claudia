@@ -6,14 +6,14 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: row nowrap;
   li {
-    padding: 18px 10px;
+    padding: 0px 10px;
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #0d2538;
+    background-color: #181717;
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
-    top: 0;
+    top: -16px;
     right: 0;
     height: 100vh;
     width: 300px;
@@ -28,12 +28,16 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <Link href="/work">
-        <a>WORK</a>
-      </Link>
-      <Link href="/contact">
-        <a>CONTACT</a>
-      </Link>
+      <li>
+        <Link href="/work">
+          <a>WORK</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/contact">
+          <a>CONTACT</a>
+        </Link>
+      </li>
     </Ul>
   );
 };
