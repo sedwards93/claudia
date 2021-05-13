@@ -1,6 +1,7 @@
 .imageContainer {
-  width: 400px;
-  height: 600px;
+  position: "relative";
+  width: "300px";
+  height: "500px";
 }
 .imageContainer > div {
   position: unset !important;

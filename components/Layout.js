@@ -22,6 +22,7 @@ export default function Layout({ title, description, hero, children }) {
         <Image
           className={styles.backgroundImage}
           prioirty="true"
+          quality={100}
           src="/background.png"
           layout="fill"
           objectFit="cover"
