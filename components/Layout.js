@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Navbar from "./Navbar";
 import styles from "../styles/Layout.module.css";
 
-export default function Layout({ title, description, children }) {
+export default function Layout({ title, description, hero, children }) {
   const router = useRouter();
   return (
     <div className={styles.container}>
@@ -18,15 +18,18 @@ export default function Layout({ title, description, children }) {
         <title>{title}</title>
         <meta name="description" content={description} />
       </Head>
-      <Image
-        className={styles.backgroundImage}
-        prioirty="true"
-        src="/background.png"
-        layout="fill"
-        objectFit="cover"
-        objectPosition="center"
-      />
+      {hero === true && (
+        <Image
+          className={styles.backgroundImage}
+          prioirty="true"
+          src="/background.png"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+        />
+      )}
       <Navbar />
+      <div> {children}</div>
     </div>
   );
 }
