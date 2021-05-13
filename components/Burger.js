@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import { useOnClickOutside } from "./Hooks/hooks";
 import styled from "styled-components";
 import RightNav from "./RightNav";
 
@@ -36,16 +37,17 @@ const StyledBurger = styled.div`
 
 const Burger = () => {
   const [open, setOpen] = useState(false);
-
+  const node = useRef();
+  useOnClickOutside(node, () => setOpen(false));
   return (
-    <>
+    <div ref={node}>
       <StyledBurger open={open} onClick={() => setOpen(!open)}>
         <div />
         <div />
         <div />
       </StyledBurger>
       <RightNav open={open} />
-    </>
+    </div>
   );
 };
 
