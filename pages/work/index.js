@@ -1,20 +1,17 @@
 import Layout from "../../components/Layout";
-import ProjectItem from "../../components/ProjectItem";
+import Cards from "../../components/Cards";
 import styled from "styled-components";
 
 const Container = styled.div`
+  height: 80vh;
   display: flex;
-  flex-direction: row;
 `;
-
 export default function Work() {
   const data = require("../api/work/data.json");
   return (
     <Layout hero={false}>
       <Container>
-        {data.projects.map((project) => (
-          <ProjectItem key={project.id} project={project} />
-        ))}
+        <Cards data={data} />
       </Container>
     </Layout>
   );
