@@ -7,6 +7,7 @@ const ImageContainer = styled.div`
   width: 400px;
   height: 250px;
   margin: 10px;
+  z-index: 1;
   @media (max-width: 420px) {
     margin: 10px 0px 10px 0px;
   }

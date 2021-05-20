@@ -32,7 +32,6 @@ const TextContainer = styled.div`
   color: white;
   width: 830px;
   font-size: 12px;
-  line-height: 0.6;
   @media (max-width: 830px) {
     width: 600px;
   }
@@ -42,6 +41,15 @@ const TextContainer = styled.div`
   @media (max-width: 410px) {
     width: 300px;
   }
+`;
+
+const Li = styled.div`
+  margin: 20px;
+`;
+
+const Line = styled.p`
+  margin-top: -1px;
+  margin-bottom: -1px;
 `;
 export default function ProjectPage({ project }) {
   return (
@@ -59,9 +67,22 @@ export default function ProjectPage({ project }) {
           <p></p>
         </VideoContainer>
         <TextContainer>
-          {project.description.map((line, index) => (
-            <p key={index}>{line}</p>
-          ))}
+          {project.description && (
+            <Li>
+              <Line>{project.description}</Line>
+            </Li>
+          )}
+          <Li>
+            {project.description2 &&
+              project.description2.map((line, index) => (
+                <Line key={index}>{line}</Line>
+              ))}
+          </Li>
+          <Li>
+            {project.description3.map((line, index) => (
+              <Line key={index}>{line}</Line>
+            ))}
+          </Li>
         </TextContainer>
       </Container>
     </Layout>
