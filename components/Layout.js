@@ -23,7 +23,7 @@ export default function Layout({ title, description, hero, children }) {
           className={styles.backgroundImage}
           prioirty="true"
           quality={100}
-          src="https://res.cloudinary.com/dbdsv9ytf/image/upload/v1621524437/Claudia/background_z2yvvx.png"
+          src="/background.jpg"
           layout="fill"
           objectFit="cover"
           objectPosition="center"
