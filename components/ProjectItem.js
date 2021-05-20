@@ -27,7 +27,7 @@ const ImageContainerOverlay = styled.div`
   transition: 0.5s ease;
   background-color: rgb(24, 23, 23, 0);
 
-  ${ImageContainer}:hover & {
+  ${ImageContainer}:hover, ${ImageContainer}:active & {
     background-color: rgb(24, 23, 23, 0.8);
     cursor: pointer;
   }
