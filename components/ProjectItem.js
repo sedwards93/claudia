@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styled from "styled-components";
+import Link from "next/link";
 
 const ImageContainer = styled.div`
   position: relative;
@@ -27,6 +28,7 @@ const ImageContainerOverlay = styled.div`
 
   ${ImageContainer}:hover & {
     background-color: rgb(24, 23, 23, 0.8);
+    cursor: pointer;
   }
 `;
 
@@ -56,12 +58,14 @@ const Tagline = styled.p`
 
 export default function projectItem({ project }) {
   return (
-    <ImageContainer>
-      <Image src={project.thumbnail} layout="fill" objectFit="cover" />
-      <ImageContainerOverlay>
-        <Title>{project.tagline}</Title>
-        <Tagline>{project.tagline2}</Tagline>
-      </ImageContainerOverlay>
-    </ImageContainer>
+    <Link href={`/work/${project.slug}`}>
+      <ImageContainer>
+        <Image src={project.thumbnail} layout="fill" objectFit="cover" />
+        <ImageContainerOverlay>
+          <Title>{project.tagline}</Title>
+          <Tagline>{project.tagline2}</Tagline>
+        </ImageContainerOverlay>
+      </ImageContainer>
+    </Link>
   );
 }
