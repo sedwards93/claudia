@@ -3,8 +3,12 @@ import Cards from "../../components/Cards";
 import styled from "styled-components";
 
 const Container = styled.div`
-  height: 80vh;
+  min-height: calc(100vh - 140px);
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
 `;
 export default function Work() {
   const data = require("../api/work/data.json");

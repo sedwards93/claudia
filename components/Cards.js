@@ -3,8 +3,6 @@ import ProjectItem from "../components/ProjectItem";
 
 const MainContainer = styled.div`
   display: flex;
-  background: yellow;
-
   justify-content: center;
   align-items: center;
 `;
