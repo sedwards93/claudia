@@ -13,6 +13,9 @@ const ImageContainer = styled.div`
 
 const ImageContainerOverlay = styled.div`
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
   top: 0;
   bottom: 0;
   left: 0;
@@ -29,6 +32,9 @@ const ImageContainerOverlay = styled.div`
 
 const Title = styled.h1`
   color: white;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 20px;
   opacity: 0;
   transition: 0.5s ease;
   ${ImageContainer}:hover & {
@@ -38,6 +44,9 @@ const Title = styled.h1`
 
 const Tagline = styled.p`
   color: white;
+  margin-left: 30px;
+  margin-top: -5px;
+  font-size: 12px;
   opacity: 0;
   transition: 0.5s ease;
   ${ImageContainer}:hover & {
@@ -50,8 +59,8 @@ export default function projectItem({ project }) {
     <ImageContainer>
       <Image src={project.thumbnail} layout="fill" objectFit="cover" />
       <ImageContainerOverlay>
-        <Title>{project.title}</Title>
-        <Tagline>{project.tagline}</Tagline>
+        <Title>{project.tagline}</Title>
+        <Tagline>{project.tagline2}</Tagline>
       </ImageContainerOverlay>
     </ImageContainer>
   );
