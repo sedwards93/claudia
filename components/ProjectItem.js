@@ -60,7 +60,12 @@ export default function projectItem({ project }) {
   return (
     <Link href={`/work/${project.slug}`}>
       <ImageContainer>
-        <Image src={project.thumbnail} layout="fill" objectFit="cover" />
+        <Image
+          src={project.thumbnail}
+          layout="fill"
+          objectFit="cover"
+          prioirty="true"
+        />
         <ImageContainerOverlay>
           <Title>{project.tagline}</Title>
           <Tagline>{project.tagline2}</Tagline>

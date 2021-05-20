@@ -7,7 +7,8 @@
         "tagline": "'Feel You' - Cici Lara",
         "tagline2": "Music Promo",
         "thumbnail": "/thumbnails/feel-you.png",
-        "description": "Dir/Prod: Claudia Lee\nCo-Producer: Cici Lara\nDoP: Bethany Fitter\nCamera Assistant: Molly Denton\nEditor: Molly Denton\nOn set Music Supervisor: Amelia Lupton\nMUA: Jess Bass\nArt Direction: Claudia Lee & Cici Lara\nGrade: Jo Barker @ Digital Orchard\nStylist: Cici Lara \nCustom handmade outfit: Lic London\n\nFlower Fountain Records"
+        "videoUrl" : "https://player.vimeo.com/video/540983446",
+        "description": ["Dir/Prod: Claudia Lee","Co-Producer: Cici Lara","DoP: Bethany Fitter","Camera Assistant: Molly Denton","Editor: Molly Denton","On set Music Supervisor: Amelia Lupton","MUA: Jess Bass","Art Direction: Claudia Lee & Cici Lara","Grade: Jo Barker @ Digital Orchard","Stylist: Cici Lara","Custom handmade outfit: Lic London","Flower Fountain Records"]
       },
       {
         "id": "2",
@@ -16,7 +17,8 @@
         "tagline": "Clan",
         "tagline2": "Short Film",
         "thumbnail": "/thumbnails/clan.png",
-        "description": "Writer/Director/Producer: Claudia Lee\nProducer: Connie Fyans\nCo-Producer: Tom Fyans\nExecutive Producers: Jonathan Lee, Jasmina Torbati, Tommy Kreiselmaier\nDoP: Mat Lester\nGaffer: Bethany Fitter\n1st AC: Jozephine Hannon\nSound: Dan Balfour\n1st AD: Ros Howes\nMakeup Designer: Chantal Mason\nCostume Designer: Daisy Blower\nComposer: Lucy Armstrong\nEditor: Toby Quickenden\nAssociate Editor: St John O‘Rorke G.B.F.T.E.\nColourist: Jo Barker\nSFX Supervisor: Sam Kissick\nElectrician: Petra Lewis\nProd: Left Hook Productions\n\nCast:Maeve: Tamsin Topolski\nMorag: Emma D’Inverno\nFather: Roger Ringrose"
+        "videoUrl" : "https://player.vimeo.com/video/405461068",
+        "description": ["Writer/Director/Producer: Claudia Lee","Producer: Connie Fyans","Co-Producer: Tom Fyans","Executive Producers:","Jonathan Lee","Jasmina Torbati","Tommy Kreiselmaier","DoP: Mat Lester","Gaffer: Bethany Fitter","1st AC: Jozephine Hannon","Sound: Dan Balfour","1st AD: Ros Howes","Makeup Designer: Chantal Mason","Costume Designer: Daisy Blower","Composer: Lucy Armstrong","Editor: Toby Quickenden","Associate Editor: St John O‘Rorke G.B.F.T.E.","Colourist: Jo Barker","SFX Supervisor: Sam Kissick","Electrician: Petra Lewis","Prod: Left Hook Productions","Cast:","Maeve: Tamsin Topolski","Morag: Emma D’Inverno","Father: Roger Ringrose"]
       }
     ]
 }
