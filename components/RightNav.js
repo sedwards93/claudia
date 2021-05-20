@@ -6,8 +6,12 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: row nowrap;
   li {
-    padding: 0px 10px;
+    padding: 0px 40px 0px 20px;
     color: #fff;
+    transition: 0.3s ease;
+  }
+  li:hover {
+    opacity: 0.7;
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;

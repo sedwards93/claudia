@@ -15,7 +15,7 @@ const Nav = styled.nav`
     font-size: 30px;
     letter-spacing: 0.3em;
     word-spacing: 0.4em;
-    padding-left: 10px;
+    padding-left: 20px;
   }
 `;
 
