@@ -3,8 +3,12 @@ import styled from "styled-components";
 
 const ImageContainer = styled.div`
   position: relative;
-  min-width: 300px;
-  min-height: 200px;
+  width: 400px;
+  height: 250px;
+  margin: 10px;
+  @media (max-width: 420px) {
+    margin: 10px 0px 10px 0px;
+  }
 `;
 
 const ImageContainerOverlay = styled.div`

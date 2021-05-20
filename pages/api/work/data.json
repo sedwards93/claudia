@@ -2,51 +2,21 @@
     "projects": [
       {
         "id": "1",
-        "title": "The Milky Way",
-        "slug": "the-milky-way",
-        "tagline": "LA VOIE LACTÉE - 1969 Movie",
-        "thumbnail": "/thumbnails/the_milky_way.jpeg",
-        "description": "Two men, part tramp, part pilgrim, are on their way to Santiago de Compostela in Spain. On their way they meet a whole assortment of people—some truculent, some violent, and some bizarre; they experience many adventures—some mysterious, some erotic, some even supernatural."
+        "title": "Feel You",
+        "slug": "feel-you",
+        "tagline": "'Feel You' - Cici Lara",
+        "tagline2": "Music Promo",
+        "thumbnail": "/thumbnails/feel-you.png",
+        "description": "Dir/Prod: Claudia Lee\nCo-Producer: Cici Lara\nDoP: Bethany Fitter\nCamera Assistant: Molly Denton\nEditor: Molly Denton\nOn set Music Supervisor: Amelia Lupton\nMUA: Jess Bass\nArt Direction: Claudia Lee & Cici Lara\nGrade: Jo Barker @ Digital Orchard\nStylist: Cici Lara \nCustom handmade outfit: Lic London\n\nFlower Fountain Records"
       },
       {
         "id": "2",
-        "title": "Drive",
-        "slug": "drive",
-        "tagline": "2011 Movie with Ryan Gosling",
-        "thumbnail": "/thumbnails/drive.jpeg",
-        "description": "A quiet stuntman works in Hollywood by day and as a driver for the mob by night. He becomes the target for some of L.A.‘s most dangerous men after agreeing to help his neighbor Irene’s husband. When the job goes awry, the only way he can keep Irene and her son safe is to do what he does best: drive."
-      },
-      {
-        "id": "3",
-        "title": "The Milky Way",
-        "slug": "the-milky-way",
-        "tagline": "LA VOIE LACTÉE - 1969 Movie",
-        "thumbnail": "/thumbnails/the_milky_way.jpeg",
-        "description": "Two men, part tramp, part pilgrim, are on their way to Santiago de Compostela in Spain. On their way they meet a whole assortment of people—some truculent, some violent, and some bizarre; they experience many adventures—some mysterious, some erotic, some even supernatural."
-      },
-      {
-        "id": "4",
-        "title": "Drive",
-        "slug": "drive",
-        "tagline": "2011 Movie with Ryan Gosling",
-        "thumbnail": "/thumbnails/drive.jpeg",
-        "description": "A quiet stuntman works in Hollywood by day and as a driver for the mob by night. He becomes the target for some of L.A.‘s most dangerous men after agreeing to help his neighbor Irene’s husband. When the job goes awry, the only way he can keep Irene and her son safe is to do what he does best: drive."
-      },
-      {
-        "id": "5",
-        "title": "The Milky Way",
-        "slug": "the-milky-way",
-        "tagline": "LA VOIE LACTÉE - 1969 Movie",
-        "thumbnail": "/thumbnails/the_milky_way.jpeg",
-        "description": "Two men, part tramp, part pilgrim, are on their way to Santiago de Compostela in Spain. On their way they meet a whole assortment of people—some truculent, some violent, and some bizarre; they experience many adventures—some mysterious, some erotic, some even supernatural."
-      },
-      {
-        "id": "6",
-        "title": "Drive",
-        "slug": "drive",
-        "tagline": "2011 Movie with Ryan Gosling",
-        "thumbnail": "/thumbnails/drive.jpeg",
-        "description": "A quiet stuntman works in Hollywood by day and as a driver for the mob by night. He becomes the target for some of L.A.‘s most dangerous men after agreeing to help his neighbor Irene’s husband. When the job goes awry, the only way he can keep Irene and her son safe is to do what he does best: drive."
+        "title": "Clan",
+        "slug": "clan",
+        "tagline": "Clan",
+        "tagline2": "Short Film",
+        "thumbnail": "/thumbnails/clan.png",
+        "description": "Writer/Director/Producer: Claudia Lee\nProducer: Connie Fyans\nCo-Producer: Tom Fyans\nExecutive Producers: Jonathan Lee, Jasmina Torbati, Tommy Kreiselmaier\nDoP: Mat Lester\nGaffer: Bethany Fitter\n1st AC: Jozephine Hannon\nSound: Dan Balfour\n1st AD: Ros Howes\nMakeup Designer: Chantal Mason\nCostume Designer: Daisy Blower\nComposer: Lucy Armstrong\nEditor: Toby Quickenden\nAssociate Editor: St John O‘Rorke G.B.F.T.E.\nColourist: Jo Barker\nSFX Supervisor: Sam Kissick\nElectrician: Petra Lewis\nProd: Left Hook Productions\n\nCast:Maeve: Tamsin Topolski\nMorag: Emma D’Inverno\nFather: Roger Ringrose"
       }
     ]
 }
